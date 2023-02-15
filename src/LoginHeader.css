@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #3f5d9a;
+    height: 83px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+}
+
+.header__logo{
+    height: 70px;
+    object-fit: contain;
+    /* margin-top: 10px; */
+    /* margin-left: 70px; */
+    /* border: 1px solid red; */
+    /* margin-right: 10px; */
+}
+
+.header__button{
+    width: 138px;
+    height: 30px;
+    color: #fff;
+    font-weight: 500;
+    /* margin-top: 25px; */
+    /* padding-top: 7px; */
+    border-radius: 2px;
+    background-color: #42b72a;
+    border: none;
+    position: relative;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left:370px; */
+    /* border: 1px solid rebeccapurple; */
+    z-index:999
+}
+
+.header__button:hover{
+    background-color: #32971e;
+    transition: 0.2s;
+    cursor: pointer;
+}

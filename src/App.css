@@ -1,0 +1,17 @@
+body{
+  background-color: #e9ebee;
+}
+
+.app__page{
+  display: flex;
+  /* justify-content: center; */
+}
+
+.app__posts{
+  justify-content: center;
+}
+
+.bottom{
+  display: flex;
+  /* justify-content: space-between; */
+}
